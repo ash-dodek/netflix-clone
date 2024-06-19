@@ -6,7 +6,6 @@ body{
     font-family: 'Netflix Sans';
 }
 .main{
-    /* font-family: 'Netflix Sans'; */
     background-image: url(assets/img/bg.jpg);
     height: 650px;
     position: relative;
@@ -34,6 +33,23 @@ nav{
 .navbtn{
     background-color: red;
     color: white;
+    border-radius: 6px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Netflix Sans';
+    font-weight: 600;
+    margin: 15px;
+}
+#dropdown1{
+    padding: 7px;
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-family: 'Netflix Sans';
+
 }
 .main-content{
     color: white;
@@ -80,12 +96,10 @@ nav{
     padding: 15px;
     font-size: 17px;
     caret-color: white;
+    color: white;
     border: 1px solid rgb(118, 118, 118);
     border-radius: 5px;
     opacity: 0.7;
-}
-#email:focus{
-    /* TODO: do this */
 }
 .get-started{
     font-family: 'Netflix Sans';
@@ -100,12 +114,21 @@ nav{
     border: none;
     background-color: rgb(229, 9, 20);
     color: white;
+    animation-name: bg-btn-back;
+    animation-duration: 0.5s;
 
 }
-.sample{
-    z-index: 3;
-    position: absolute;
-    left: 304px;
-    /* color: black; */
-    /* right: -1000px; */
+@keyframes bg-btn {
+    from{}
+    to{background-color: rgb(205, 9, 19);}
+}
+@keyframes bg-btn-back {
+    from{background-color: rgb(205, 9, 19);}
+    to{}
+}
+.get-started:hover{
+    cursor: pointer;
+    animation-name: bg-btn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
