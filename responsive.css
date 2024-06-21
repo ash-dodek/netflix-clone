@@ -49,6 +49,8 @@
     /* fixing nav also */
     nav{
         max-width: 100vw;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     /* About images */
     .image{
@@ -77,10 +79,19 @@
     .image-div{
         margin: auto; 
     }
+    .dropdown1{
+        width: 2px;
+    }
+    #logo{
+        width: 85px;
+    }
 }
 
 /* Below css when on mobile directly(<600px) */
 @media screen and (max-width: 600px) {    
+    .testing{
+        display: grid;
+    }
     .email-area{
         display: grid;
     }
