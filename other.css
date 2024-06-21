@@ -1,3 +1,15 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+    font-size: 45px !important;
+    align-self: center;
+    
+    margin: 15px;
+    position: relative;
+}
 body{
     background-color: #161616;
     position: relative;
@@ -6,17 +18,19 @@ body{
 .next-pages{
     z-index: 1;
     position: relative;
-    padding: 120px;
     margin-top: 10px;
-    padding-right: 200px;
-    height: 315px;
+    height: 550px;
     background-color: black;
     display: flex;
     color: white;
+    align-items: center;
     justify-content: center;
 }
 .texts{
+    /* display: flex; */
     align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .title{
     display: inline;
@@ -29,8 +43,8 @@ body{
     flex-wrap: wrap;
 }
 .image{
-    top: -70px;
     position: relative;
+    /* min-height: 390px; */
     height: 390px;
     align-content: center;
 }
@@ -38,16 +52,18 @@ body{
     display: flex;
 }
 #vid_tv{
-    right: 247px;
+    /* right: 247px; */
     z-index: -1;
-    top: 131px;
+    /* top: 131px; */
+    margin-left: 42px;
+    margin-top: 82px;
     height: 212px;
     width: 431px;
     position: absolute;
 }
 #vid_device{
     z-index: -1;
-    top: 161px;
+    margin-top: 30px;
     position: absolute;
     height: 179px;
     width: 515px;
@@ -65,11 +81,11 @@ body{
     text-align: center;
 }
 .faqs{
-    margin: 30px;
+    /* padding: 30px; */
 }
 .faq{
     background: #404140;
-    width: 900px;
+    width: 65vw;
     height: 75px;
     align-content: center;
     display: flex;
@@ -97,18 +113,6 @@ body{
 .faq-title{
     margin: 25px;
     font-size: 20px;
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-    font-size: 45px !important;
-    align-self: center;
-    
-    margin: 15px;
-    position: relative;
 }
 .testing{
     font-size: 20px;

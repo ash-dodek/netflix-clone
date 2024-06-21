@@ -1,0 +1,91 @@
+@media screen and (max-width: 1000px){
+    .next-pages{
+        display: block;
+    }
+    .main-content{
+        margin-top: 70px;
+    }
+    .text1{
+        font-size: 2rem !important;
+    }
+    .text2{
+        font-size: 20px;
+    }
+    .text3{
+        font-size: 15px;
+    }
+    .texts{
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .next-pages{
+        display: grid;
+        padding-bottom: 30px;
+        padding: 20px;
+        height: 550px;
+    }
+    /* Special styles for the last page */
+    .last-page{
+        padding: 20px;
+    }
+    .faq{
+        height: fit-content;
+    }
+    .faq-title{
+        align-self: center;
+        margin: 15px;
+        margin-right: 0;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .desc{
+        font-size: 20px;
+    }
+    #email{
+        max-width: 230px;
+    }
+    /* fixing nav also */
+    nav{
+        max-width: 100vw;
+    }
+    /* About images */
+    .image{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        display: grid;
+    }
+
+    #vid_tv{
+        top: 33%;
+        bottom: 0%;
+        left: 14%;
+        right: 0%;
+        width: 76%;
+        min-width: 156px;
+        height: 50%;
+        margin: 0;
+    }
+    #vid_device{
+        height: auto;
+        width: 56vw;
+        top: 49%;
+        left: 21.5%;
+    }
+    .image-div{
+        margin: auto; 
+    }
+}
+
+/* Below css when on mobile directly(<600px) */
+@media screen and (max-width: 600px) {    
+    .email-area{
+        display: grid;
+    }
+    .get-started{
+        max-width: fit-content;
+        justify-self: center;
+    }
+}
